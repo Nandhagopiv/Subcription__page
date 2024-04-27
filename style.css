@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.sub__container--title{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.sub__container--title h1{
+    background-color: #C66A9A;
+    width: 900px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.sub__container--plans{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.sub__container{
+    display: flex;
+    justify-content: center;
+}
+
+.sub__plans{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.sub__plans h1{
+    margin: 10px;
+}
+
+.sub__plans h2{
+    margin: 10px;
+}
+
+.sub__plans p{
+    margin: 5px;
+}
+
+.plan__details{
+    border: 2px solid white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.plan__details p{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
